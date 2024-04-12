@@ -18,7 +18,7 @@ export class ProductService {
   // Map the JSON data from Spring Data REST to Product array
   getProductList(): Observable<Product[]>{
     return this.httpClient.get<GetResponse>(this.baseUrl).pipe(
-      map(Response => Response._embedded.products)
+      map(Response => Response._embedded.Product)
     );
   }
 }
@@ -26,6 +26,6 @@ export class ProductService {
 // this interface unwraps the JSON from Spring DATA REST _embedded entry
 interface GetResponse{
   _embedded : {
-    products : Product[];
+    Product : Product[];
   }
 }
