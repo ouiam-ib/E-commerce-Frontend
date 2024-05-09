@@ -7,6 +7,7 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { HttpClientModule } from '@angular/common/http';
 import { ProductService } from './services/product.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
