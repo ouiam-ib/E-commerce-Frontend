@@ -27,6 +27,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
+## ADDED
+
 ## Prerequisites
 Node.js :  install it from Node.js official website
 Angular CLI : npm install -g @angular/cli
@@ -38,3 +40,4 @@ Make sur the backend is also running to see the results
 ## Steps
 Download bootstrap : npm install bootstrap
 Download Font Aweseome : npm i @fortawesome/fontawesome-free
+
